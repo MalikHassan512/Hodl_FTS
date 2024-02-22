@@ -1,0 +1,17 @@
+reanimated error
+expo start -c //clears cache then run yarn android
+
+
+to load production env run
+set NODE_ENV=production 
+cd android
+gradlew assembleRelease
+yarn build:android
+
+
+
+to clean
+cd android
+gradlew clean
+
+yarn cache clean

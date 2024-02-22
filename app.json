@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "hodl",
+    "slug": "hodl",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/app-app-icon.jpg",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fabtechsolteam.hodl"
+    },
+    "android": {
+      "package": "com.fabtechsolteam.hodl"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29c2b71f-a5c8-4156-89e4-d7510275e306"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/29c2b71f-a5c8-4156-89e4-d7510275e306"
+    },
+    "owner": "fabtechsol-team"
+  }
+}
